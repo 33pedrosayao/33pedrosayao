@@ -1,16 +1,14 @@
-## Hi there 👋
+## Olá! 👋
 
-<!--
-**33pedrosayao/33pedrosayao** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Sou Pedro Sayao. Esse espaço é destinado ao compartilhamento dos meus projetos desenvolvidos ao longo da faculdade e demonstração das minhas habilidades técnicas.
 
-Here are some ideas to get you started:
+📚Estudante de Engenharia de Software no [CEUB](https://www.uniceub.br/)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🏢Analista de Compras Jr. na  [CAIXA Residencial](https://www.caixaresidencial.com.br/)  
+
+📭e-mail para contato: ph05barros@gmail.com
+
+
+
+
+
