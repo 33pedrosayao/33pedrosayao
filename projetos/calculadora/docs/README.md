@@ -52,7 +52,9 @@ Recursos adicionais:
 git clone https://github.com/33pedrosayao/33pedrosayao.git
 cd projetos/calculadora/src
 ```
+
 ### Executar a aplicação 
+```bash
 python3 calc.py 
 
 
