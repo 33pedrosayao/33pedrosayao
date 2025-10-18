@@ -3,7 +3,7 @@ from typing import Callable, Dict
 
 import operator
 
-OPS: Dict[str, Callable[[float, float], float]] = {
+OPERADORES: Dict[str, Callable[[float, float], float]] = {
     "+": operator.add,
     "-": operator.sub,
     "*": operator.mul,
@@ -13,12 +13,12 @@ OPS: Dict[str, Callable[[float, float], float]] = {
     "**": operator.pow,
 }
 
-def calculate(a: float, op: str, b: float) -> float:
-    if op not in OPS:
-        raise ValueError(f"Operador inválido: {op}. Use um de {list(OPS.keys())}")
+def calcular(a: float, op: str, b: float) -> float:
+    if op not in OPERADORES:
+        raise ValueError(f"Operador inválido: {op}. Use um de {list(OPERADORES.keys())}")
     if op in {"/", "//", "%"} and b == 0:
         raise ZeroDivisionError("Divisão por zero.")
-    return OPS[op](a, b)
+    return OPERADORES[op](a, b)
 
 def main() -> None:
     print("Calculadora simples | ops: +  -  *  /  //  %  **")
@@ -37,7 +37,7 @@ def main() -> None:
 
             a_str, op, b_str = parts
             a, b = float(a_str.replace(",", ".")), float(b_str.replace(",", "."))
-            result = calculate(a, op, b)
+            result = calcular(a, op, b)
             # Saída limpa (inteiro sem .0 quando aplicável)
             if result.is_integer():
                 print(int(result))
