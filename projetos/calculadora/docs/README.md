@@ -56,5 +56,9 @@ cd projetos/calculadora/src
 ### Executar a aplicação 
 ```bash
 python3 calc.py 
+```
+
+### Obrigado por utilizar o meu projeto!
+```bash
 
 
