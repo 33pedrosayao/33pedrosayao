@@ -51,7 +51,7 @@ Recursos adicionais:
 ```bash
 git clone https://github.com/33pedrosayao/33pedrosayao.git
 cd projetos/calculadora/src
-
+```
 ### Executar a aplicação 
 python3 calc.py 
 
